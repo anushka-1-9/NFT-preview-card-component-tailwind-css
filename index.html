@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./src/output.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+</head>
+
+<body class="bg-main-BG text-white-col">
+
+  <div class="flex justify-center items-center min-h-screen">
+    <div class="max-w-30xl bg-card-BG container p-8 rounded-3xl shadow-2xl shadow-black 2xl:max-w-[23%] max-sm:max-w-95xl">
+
+      <div class="relative group" tabindex="0">
+     
+        <img src="./images/image-equilibrium.jpg" alt="image-equilibrium" class="rounded-3xl 2xl:h-96 2xl:w-full max-sm:w-full">
+      
+        <div class="absolute inset-0 bg-[hsl(178,100%,50%)] opacity-0 group-hover:opacity-50  group-hover:cursor-pointer group-focus:cursor-pointer group-focus:opacity-50 transition-opacity rounded-3xl"></div>
+        
+        <img src="./images/icon-view.svg" alt="icon-view"
+             class="absolute inset-0 w-12 h-12 opacity-0 group-hover:opacity-100 group-focus:opacity-100 m-auto transition-opacity">
+      </div>
+      
+      
+      
+
+      <div class="sub-content">
+
+        <h1 class="text-3xl font-semibold my-7 hover:text-cyan hover:cursor-pointer focus:text-cyan focus:cursor-pointer">Equilibrium #3429</h1>
+
+        <p class="text-xl text-soft-blue mb-7">Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="flex justify-between items-center mb-7">
+          <div class="flex gap-2.5 justify-center items-center">
+            <img src="./images/icon-ethereum.svg" alt="icon-ethereum" class="w-3.5 h-6">
+          <h2 class="text-xl text-cyan font-semibold"> 0.041 ETH </h2>
+          </div>
+          <div class="flex gap-2.5 justify-center items-center">
+          <img src="./images/icon-clock.svg" alt="icon-clock" class="w-6 h-6">
+          <p class="text-xl text-soft-blue"> 3 days left </p>
+        </div>
+        </div>
+
+        <div class="border-t border-solid border-soft-blue mb-5"></div>
+
+        <div class="flex gap-3.5 items-center py-1.5">
+
+          <img src="./images/image-avatar.png" alt="image-avatar" class="w-10 h-auto border-solid border-white-col border-2 rounded-full">
+          <p class="text-xl text-soft-blue">Creation of <span class="text-xl text-white-col hover:text-cyan hover:cursor-pointer focus:text-cyan focus:cursor-pointer">Jules Wyvern</span></p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center mt-7">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/anushka-1-9" target="_blank">Anushka</a>.
+  </div>
+</body>
+
+</html>
